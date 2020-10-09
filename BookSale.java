@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class BookSale {
  
     public static void main(String[] args) {
-         
+        System.out.println("test");
         int[] arr = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5};
         int n = 4;
         int nthRarestElement = nthLowestSelling(arr, n);
